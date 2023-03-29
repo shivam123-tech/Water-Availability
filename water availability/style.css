@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url("img/image3.jpg");
+    font-weight: bold;
+  }
+  
+  header {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    color: lightslategray;
+    /* text-align: center; */
+    padding: 10px;
+    display: flex;
+  }
+  span{
+    color:lightblue;
+  }
+  #logo{
+    border: 2px solid lightblue;
+    border-radius: 15px;
+  }
+  #logo-hea{
+    padding-left: 10px;
+    padding-top: 18px;
+  }
+  h2{
+    text-decoration: underline;
+    
+
+  }
+  #avail{
+    text-align: center;
+  }
+  
+  nav {
+    background-color:rgba(168, 218, 235, 0.767);
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+    padding: 0px 70px;
+    
+  }
+  #home{
+    padding-left: 300px;
+  }
+  nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .txt{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  #p{
+    text-align: justify;
+  }
+  #lesswater{
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+  #water-uni{
+    display: inline-flex;
+  }
+  #watercris-sec{
+    display: inline-flex;
+
+  }
+ .conservation-div{
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px 4px  lightcyan;
+  background-color: white;
+ }
+ #myBtn{
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 20px;
+  border: 1px solid aquamarine;
+  border-radius: 10px;
+  background-color: lightblue;
+
+ }
+ #more{
+  color: black;
+ }
+  .watercris-div{
+   cursor: pointer;
+    height: auto;
+    width:370px;
+    margin: 30px;
+    justify-content: space-between;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 4px  lightcyan;
+    background-color: white;
+  }
+  .watercris-div img{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+  }
+  #p{
+    padding: 20px;
+  }
+div iframe{
+  margin-left: 220px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+  .text-small{
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0px 25px;
+    text-align: justify;
+  }
+  footer {
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  

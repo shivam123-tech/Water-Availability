@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Water Availability Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="img/image6.jpg" id="logo" height="50px" width="50px" />
+      <div id="logo-hea"><span> Water </span> Availability System</div>
+    </header>
+    <nav>
+      <ul>
+        <li id="home"><a href="#">Home</a></li>
+        <li id="watercriss"><a href="#watercris">Water Crisis</a></li>
+        <li>
+          <a href="https://www.unicef.org/wash/water" target="_blank">About</a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/deepika2731" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="avail">
+        <h2>Water Availability</h2>
+        <p>Check the water availability in your area:</p>
+        <form>
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location" />
+          <input type="submit" value="Check Availability" />
+        </form>
+        <p id="availability"></p>
+      </div>
+      <br /><br />
+      <img
+        src="https://i.guim.co.uk/img/media/1dfd4b6e012366bc5f46ab790af59d7863c46a43/0_0_3000_1800/master/3000.jpg?width=1020&quality=85&dpr=1&s=none"
+        height="500px"
+        width="100%"
+      />
+    
+      <br /><br /><br />
+      <div>
+        <h2>Statewise Graph Of GroundWater</h2>
+        <canvas id="waterChart"></canvas>
+      </div>
+      <br><br>
+      <section>
+        <div class="conservation-div">
+          <h2>Water Conservation Tips</h2>
+          <ul>
+            <li>Turn off the faucet while brushing your teeth</li>
+            <li>Fix leaks promptly</li>
+            <li>Use a broom instead of a hose to clean outdoor areas</li>
+            <li>
+              Water your lawn and plants in the early morning or late evening to
+              reduce evaporation
+            </li>
+
+            <li>
+              Maximize the use of natural vegetation and establish smaller
+              lawns. For portions of your lot where a lawn and landscaping are
+              desired, ask your local nursery for tips about plants and grasses
+              with low water demand (such as creeping fescue).<span id="dots"
+                >...</span
+              ><span id="more"
+                >Consider planting more trees, shrubs, ground covers, and less
+                grass. Shrubs and ground covers provide greenery for much of the
+                year and usually demand less water. Use native plants in flower
+                beds. Native plants have adapted to rainfall conditions in New
+                England and often provide good wildlife habitat. Cluster plants
+                that require extra care together to minimize time and save
+                water.
+              </span>
+            </li>
+          </ul>
+          <input
+            type="button"
+            value="Read more"
+            onclick="myFunction()"
+            id="myBtn"
+          />
+        </div>
+      </section>
+      <br /><br />
+      <h2>According To Unicef Water Less Country</h2>
+      <div id="water-uni">
+        <div class="watercris-div">
+          <img
+            src="img/image4.jpg"
+            alt="reload image"
+            height="500px"
+            width="370"
+          />
+        </div>
+        <div class="watercris-div">
+          <img
+            src="https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2014/11/UN-WHO-water-111814.gif"
+            height="500"
+            width="370"
+          />
+        </div>
+        <div class="watercris-div">
+          <img
+            src="http://cdn.statcdn.com/Infographic/images/normal/2226.jpeg"
+            height="500"
+            width="370"
+          />
+        </div>
+      </div>
+      <br />
+      <h2 id="watercris">Water crisis</h2>
+      <div id="watercris-sec">
+        <div class="watercris-div">
+          <img src="img/image7.jpg " height="200px" width="370px" />
+          <h3>&nbsp Water and the climate crisis: 10 things you should know</h3>
+          <p class="text-small">
+            The world needs to get water smart. Everyone has a role to play, and
+            we cannot afford to wait. Climate change is disrupting weather
+            patterns, leading to extreme weather events, unpredictable water
+            availability, exacerbating water scarcity and contaminating water
+            supplies. Such impacts can drastically affect the quantity and
+            quality of water that children need to survive.
+          </p>
+          <input type="button"value="Read more" onclick="myFunction()" id="myBtn"/>
+        </div>
+        <div class="watercris-div">
+          <img src="img/image8.jpg " height="200px" width="370px" />
+          <h3>&nbsp Attacks on water and sanitation infrastructure</h3>
+          <p class="text-small">
+            This includes both intentional attacks, such as targeting pipelines
+            or pouring concrete into wells, and inadvertent attacks, where
+            reckless bombardment with no attempt to avoid critical civilian
+            infrastructure results in damaged or destroyed water and sanitation
+            systems.
+          </p>
+          <input type="button"value="Read more" onclick="myFunction()" id="myBtn"/>
+        </div>
+        <div class="watercris-div">
+          <img src="img/image9.jpg " height="200px" width="370px" />
+          <h3>&nbsp Rural populations are the most disadvantaged.</h3>
+          <p class="text-small">
+            8 out of 10 people who lack even basic drinking water live in rural
+            areas. Two-thirds of people who lack even basic sanitation live in
+            rural areas. 9 out of 10 people who practice open defecation live in
+            rural areas.
+          </p>
+          <p>
+          </p>
+          <input type="button"value="Read more" onclick="myFunction()" id="myBtn"/>
+        </div>
+      </div>
+      <br /><br />
+      <hr>
+      <br>
+      <div id="iframe">
+        <iframe
+          width="770"
+          height="433"
+          src="https://www.youtube.com/embed/KlAaz6Ea0Fk"
+          title="2022: A Year of Conflict and Climate Crisis for Children | UNICEF"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <br>
+      <hr />
+      <br><br>
+      <div class="conservation-div">
+        <summary class="txt">Description:</summary>
+        <p id="p">
+          One of the most pressing national and global issues is the
+          availability of freshwater due to global climate change, energy
+          scarcity issues and the increase in world population and accompanying
+          economic growth. Estimates of water supplies and flows through the
+          world's hydrologic cycle and their spatiotemporal variability indicate
+          an impending world crisis. Increasing use of water due to population
+          and associated economic growth pressures, are creating water shortages
+          in many parts of the U.S. that are projected to have population
+          increases in the next 25 years. Scarcity of energy resources results
+          in the increasing use of alternative fuels, some of which require
+          enormous water withdrawals for fuel processing. Increasing regional
+          and global temperatures is causing loss of freshwater supplies due to
+          increased evapotranspiration and reduced recharge of underground
+          drinking water supplies. Agriculture is the dominant component of
+          human water use, accounting for almost 70% of all water withdrawals.
+          Many factors significantly impact increasing water demand in Oklahoma,
+          including population growth, economic growth, technological
+          development, land use and urbanization, rate of environmental
+          degradation, government programs, climate change, and others. Water
+          demand management is the realistic way forward. Climate change adds
+          further risks and uncertainties to the picture requiring the adoption
+          of adaptive management strategies for water resource sustainability.
+          Sustainable development is defined as the use of ground water and
+          surface water in a manner that can be maintained for an indefinite
+          time without causing unacceptable environmental, economic, or social
+          consequences.
+        </p>
+      </div>
+    </main>
+    <br>
+    <footer>
+      <p>&copy; 2023 Deepika Choudhary</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
